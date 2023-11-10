@@ -3,8 +3,8 @@ const nextConfig = {
 
   reactStrictMode: false,
   env: {
-    API_BASE_URL: 'http://localhost:5000/',
-    BASE_URL: 'http://localhost:3000/'
+    API_BASE_URL: 'https://api-h5ti.onrender.com/',
+    BASE_URL: 'https://yakovenkomarko.netlify.app/'
   },
   eslint: {
     warnings: false
