@@ -1,0 +1,46 @@
+.small {
+    font-size: 14px;
+}
+
+.medium {
+    font-size: 18px;
+}
+
+.big {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.inline {
+    display: inline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.link {
+    display: inline;
+    color: #2F52E0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.link:visited {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.white {
+    color: #Fefefa;
+}
+
+.active {
+    border-radius: 10px;
+    background-color: #Fefefa;
+    color: black;
+}

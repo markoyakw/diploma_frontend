@@ -1,0 +1,25 @@
+.loader_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.loader {
+    width: 100%;
+    height: 18px;
+    background-image: linear-gradient(90deg, transparent, #0077FF, #0055CC, #0033AA, #002299, #000077); /* More blue color stops */
+    background-repeat: no-repeat;
+    background-size: 200% 100%;
+    animation: loader-animation 2s linear infinite;
+}
+
+@keyframes loader-animation {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}

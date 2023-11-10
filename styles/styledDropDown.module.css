@@ -1,0 +1,21 @@
+.dropdown_content {
+    margin: 10px 0px;
+    background-color: #FCB688;
+    border-radius: 20px;
+}
+
+.dropdown_content * {
+    border-radius: 0px;
+    justify-content: start;
+    padding-left: 10px;
+}
+
+.dropdown_content :last-child {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.dropdown_content :first-child {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}

@@ -1,0 +1,10 @@
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: #2F52E0;
+    width: 105px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+}

@@ -1,0 +1,256 @@
+.answer_container {
+    display: flex;
+}
+
+.answer_container * {
+    display: inline-flexbox;
+}
+
+.answer_container {
+    border-radius: 25px;
+    padding: 10px 35px 10px 25px;
+    background-color: #F4F6F6;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.right_answer {
+    background-color: #F0FCC5;
+}
+
+.wrong_answer {
+    background-color: #fcd7d2;
+}
+
+.wrong_answer_textinput {
+    background-color: #fcd7d2;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.right_answer_textinput{
+    background-color: #F0FCC5;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.delete_answer_button {
+    padding-left: 15px;
+}
+
+.checkbox_answer {
+    width: 100%;
+    padding-left: 15px;
+}
+
+.checkbox {
+    width: 25px;
+}
+
+.answer_text {
+    padding: 20px 0px 20px 10px;
+}
+
+.block {
+    background-color: #fefefa;
+    border-radius: 10px;
+    padding: 20px 25px 20px 25px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex: 1 1 auto;
+}
+
+.correct_question {
+    background-color: #FAFEEC;
+}
+
+.wrong_question {
+    background-color: #FFEDEB;
+}
+
+.new_answer_button_container {
+    margin-top: 10px;
+}
+
+.title_block {
+    padding-top: 10px;
+}
+
+.fill_the_gaps_answer_first_word {
+    white-space: nowrap;
+    position: relative;
+}
+
+.fill_the_gaps_fill_answer_left {
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 2px 2px 2px 5px;
+}
+
+.fill_the_gaps_fill_answer_right {
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 2px 5px 2px 2px;
+}
+
+.fill_the_gaps_result {
+    border-radius: 25px;
+    padding: 20px 35px 10px 35px;
+    background-color: #F4F6F6;
+    width: 100%;
+    margin: 10px 0px;
+    line-height: 2.5em;
+    overflow-wrap: break-word;
+}
+
+.fill_the_gap_result_answer {
+    margin-right: 10px;
+}
+
+.fill_the_gaps_answer_number {
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    left: -12px;
+    width: 23px;
+    height: 23px;
+    padding: 1px 0px 0px 6px;
+    font-size: 15px;
+    line-height: 1.4em;
+    background-color: blue;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+}
+
+.horisontaly_divided_buttons_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.horisontaly_divided_buttons_container * {
+    width: calc(50% - 10px);
+    justify-content: center;
+    height: 70px;
+}
+
+.connect_options_answer {
+    padding: 2.5px 0px;
+}
+
+.title_row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.my_test_button {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 400px) {
+    .my_test_link_description{
+        display: none;
+    }
+    .block{
+         padding: 10px;
+         margin: 20px 0px;
+    }
+}
+
+.my_test_button_name_desc_act {
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my_test_link_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #FEFEFA;
+    font-size: 25px;
+    color: black;
+}
+
+.my_test_link_info {
+    padding-right: 20px;
+    width: calc(100% - 40px - 20px);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.my_test_link_description {
+    font-size: 14px;
+    max-width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.my_test_link_name {
+    font-size: 14px;
+    max-width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+}
+
+.my_test_button_testing_dates {
+    width: 35%;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.date_selector_block {
+    margin-bottom: 20px;
+    border-radius: 25px;
+    padding: 20px 35px 10px 35px;
+    background-color: #F4F6F6;
+}
+
+.date_selector_start_button {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.date_selector {
+    width: 300px;
+}
+
+.get_tested_text_field {
+    margin: 20px 0px 15px 0px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    border-bottom: 3px solid lightgray;
+}
+
+.journal_button {
+    margin-bottom: 10px;
+}
+
+.preformated_text {
+    white-space: pre-wrap;
+    word-break: break-word;
+    font-family: 'Nunito';
+    src: url('../public/fonts/nunito/Nunito-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

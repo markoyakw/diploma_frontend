@@ -1,0 +1,49 @@
+.error {
+    padding-top: 15px;
+    color: #FF4E33;
+    font-size: 18px;
+}
+
+.message {
+    padding-top: 15px;
+    color: #5361CA;
+    font-size: 18px;
+}
+
+.success {
+    margin-top: 15px;
+    background-color: #A1E986;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 3px solid #86E364;
+}
+
+.input_error {
+    color: red
+}
+
+.popup {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    background-color: #FF4E33;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    transition: bottom 0.5s ease-in-out;
+}
+
+.popup_success {
+    background-color: #A1E986;
+    color: black;
+}
+
+.popup_loading {
+    background-color: transparent;
+    padding: 0px;
+}
+
+.popup.show {
+    bottom: 0
+}
