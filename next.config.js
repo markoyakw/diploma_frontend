@@ -4,7 +4,7 @@ const nextConfig = {
   reactStrictMode: false,
   env: {
     API_BASE_URL: 'https://api-h5ti.onrender.com/',
-    BASE_URL: 'https://yakovenkomarko.netlify.app/'
+    BASE_URL: 'https://https://yakovenkomarko.netlify.app/'
   },
   eslint: {
     warnings: false
