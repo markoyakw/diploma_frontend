@@ -3,7 +3,7 @@ const nextConfig = {
 
   reactStrictMode: false,
   env: {
-    API_BASE_URL: 'https://diploma-backend-m4dnok1d1-mrkykvnks-projects.vercel.app/',
+    API_BASE_URL: 'https://api-h5ti.onrender.com/',
     BASE_URL: 'https://yakovenkodiploma.vercel.app/'
   },
   eslint: {
